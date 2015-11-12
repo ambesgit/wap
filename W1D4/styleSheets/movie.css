@@ -1,0 +1,125 @@
+body{
+    background-image: url("../resources/background.png");
+    background-repeat:repeat;
+    font-size:8pt;
+    font-family:verdann,Tahoma,sans-serif
+}
+div#banner{
+     background-image: url("../resources/bannerbg.png");
+    background-repeat:repeat;
+}
+div#banner img{
+    display:inline-block;
+    margin-left: 25%;
+    margin-right: 25%;  
+    
+}
+header h2{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma,Verdana,sans-serif;
+    text-shadow: 3px 3px #999999;
+    
+}
+div#container{
+    position:relative;
+    width:800px;
+    display:inline-block;
+    margin-left:25%;
+    margin-right:25%;
+    border:4px solid gray;
+    border-radius: 20px;
+    overflow:hidden;
+}
+div div#art_rottenbig{
+    width:550px;    
+    font-size: 48pt;
+    color:red;
+    font-weight: bold;
+    background-image: url("../resources/rbg.png");
+    overflow: hidden;
+    border-radius: 12px 0px 0px 0px; 
+    
+}
+div div#art_rottenbig img{    
+    float:left;
+    
+}
+div div#art_overview{
+    width:250px;   
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    background-color:#a2b964;
+    
+}
+
+dl{
+    background-color:#a2b964;
+    font-family: Arial,sans-serif;
+    font-size: 8pt;
+        
+      
+}
+dd{
+    font-weight: bold;
+    margin-bottom: 10pt;
+}
+div div.review{
+    display:inline-block;
+     width:27%;
+     margin:2%;
+     padding:8pt;
+     
+}
+div div div.ratting{    
+    background-color:#e8dc9b;         
+     border:2px solid gray;
+     border-radius: 10px;     
+     overflow:hidden;   
+}
+
+div div div.ratting img{
+    float:left;
+    margin-right:5px;
+}
+div div div.critic img{
+    float:left;
+    margin-right:5px;
+    margin-bottom:20pt;
+}
+div footer{
+    background-color:#a2b964;
+    text-align: center;
+    padding:5px;
+    
+}
+body footer{
+    position:relative;
+    bottom:0px;
+    right:0px;
+}
+
+body footer a#html{
+     position:absolute; 
+      bottom:0px;
+     right:0px;
+     opacity: 0.50
+    
+}
+body footer a#css{  
+     position:absolute; 
+     top:0px;    
+     right:0px;   
+     opacity: 0.50    
+}
+dl dt dd a{
+    text-decoration: none;
+}
+
+
+
+
+

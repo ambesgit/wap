@@ -1,0 +1,141 @@
+body{
+    background-image: url("../resources/background.png");
+    background-repeat:repeat;
+    font-size:8pt;
+    font-family:verdann,Tahoma,sans-serif
+}
+div#banner{    
+    background-image: url("../resources/bannerbg.png");
+    background-repeat:repeat;
+}
+div#banner img{    
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+}
+header h2{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma,Verdana,sans-serif;
+    text-shadow: 3px 3px #999999;
+    
+}
+div#container{
+    position:relative;
+    width:800px;    
+    margin:auto;    
+    border:4px solid gray;
+    border-radius:20px;
+    overflow:hidden;
+    
+}
+div div#art_rottenbig{
+    width:550px;    
+    font-size: 48pt;
+    color:red;
+    font-weight: bold;
+    background-image: url("../resources/rbg.png");
+    overflow: hidden;
+    border-radius: 12px 0px 0px 0px; 
+    
+}
+
+div div#art_overview{
+    position:relative;
+    top:-100px;   
+    width:250px;   
+    float:right;
+    background-color:#a2b964;   
+    overflow: auto;
+   
+}
+
+
+dl{
+    position:relative;
+    bottom:0px;
+    margin:10pt;
+    background-color:#a2b964;
+    font-family: Arial,sans-serif;
+    font-size: 8pt;
+    
+      
+}
+dd{
+    font-weight: bold;
+    margin-bottom: 10pt;
+}
+div div.review{   
+     margin:2%;     
+     overflow:auto;
+     
+    
+}
+
+div.comment{ 
+    padding:8px;
+    background-color:#e8dc9b;         
+    border:2px solid gray;
+    border-radius: 10px;    
+    overflow:auto;
+    
+}
+div.critic{    
+    margin-bottom:20pt;
+    overflow:auto;
+    font-style:italic;
+    
+}
+div div div.rightside{    
+     width:47%;  
+      margin-right:2%;
+     float:right;   
+}
+div div div.leftside{    
+     width:47%; 
+     margin-right:2%;
+     float:left;     
+      
+}
+
+div div div.comment img{
+    float:left;
+    margin-right:5px;
+}
+div div div.critic img{
+    float:left;
+    margin-right:5px;
+    
+}
+div footer{
+    position:absolute;
+     bottom:0px;
+     right:0px;
+     left:0px;
+    background-color:#a2b964;
+    text-align: center;
+    padding:5px;
+    
+}
+p.validator{
+    position:relative;
+}
+body p a#html{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    opacity: 0.50;
+    float:right;
+}
+body p a#css{ 
+    position:absolute;
+    top:0px;
+    right:0pc;
+     float:right;   
+     opacity: 0.50    
+}
+dl dt dd a{
+    text-decoration: none;
+}

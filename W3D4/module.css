@@ -1,0 +1,19 @@
+
+textarea{
+    width:90%;
+}
+strong.left{
+    float:left;
+    width:8em;
+}
+div{
+    background-color: #CCCCFF;
+    padding:5px;
+    border:1px solid black;
+    width:80%;
+    margin:auto;
+}
+div p#footer a{
+    float:right;
+    clear:right;
+}

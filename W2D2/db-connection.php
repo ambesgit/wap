@@ -1,0 +1,11 @@
+<?php
+
+try{
+$db = new PDO("mysql:dbname=nerdluv;host=localhost","match-maker","meant2B");
+$db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+}
+catch(Exception $ex){
+    $db=NULL;
+}
+?>
+
