@@ -1,0 +1,10 @@
+p#footer,p#footer a{
+    float:right;
+    clear:right;
+ 
+}
+body{
+    margin:20px;
+    border:1px solid black;
+}
+
